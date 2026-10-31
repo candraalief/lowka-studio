@@ -2,7 +2,7 @@
 
 import React, { useState, useEffect } from "react";
 import { useLanguage } from "@/context/LanguageContext";
-import { Globe, Menu, X, ArrowUpRight } from "lucide-react";
+import { Menu, X } from "lucide-react";
 
 export default function Navbar() {
   const { language, setLanguage, dict } = useLanguage();
@@ -35,7 +35,9 @@ export default function Navbar() {
             <span className="font-bold tracking-tight text-zinc-100 text-lg leading-tight flex items-center gap-1">
               LowKa <span className="text-amber-400 font-medium text-xs uppercase tracking-wider px-1.5 py-0.5 rounded bg-amber-400/10 border border-amber-400/20">Studio</span>
             </span>
-            <span className="text-[11px] text-zinc-400 font-mono">by Candra AAP</span>
+            <span className="text-[11px] text-zinc-400 font-mono">
+              {language === "id" ? "Solusi Website UMKM" : "Web Solutions for MSMEs"}
+            </span>
           </div>
         </a>
 

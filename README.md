@@ -1,28 +1,28 @@
-# LowKa Studio • Portfolio
+# LowKa Studio • Official Company Website
 
-> **"Membangun website pertama yang simpel, kencang, dan ramah kantong untuk UMKM Indonesia."**  
-> *Crafting the very first website that's fast, simple, and budget-friendly for Indonesian businesses.*
+> **"Membangun website pertama yang simpel, kencang, dan ramah kantong untuk bisnis kamu."**  
+> *Crafting the very first website that's fast, simple, and budget-friendly for your business.*
 
-Website portofolio 1-halaman (*single-page scroll*) bergaya editorial dan *user-centric* (terinspirasi dari [olaolu.dev](https://olaolu.dev/)) untuk **Candra Agung Alief Prasetyo (Candra AAP)**, Mahasiswa Ilmu Komputer IPB University dan pendiri **LowKa Studio**.
+Website resmi (*single-page scroll*) untuk **LowKa Studio**, studio pengembangan website modern yang berfokus membantu pelaku usaha dan UMKM di Indonesia memiliki kehadiran digital resmi tanpa beban biaya sewa server yang mahal.
 
 ---
 
 ## 💡 Filosofi Brand: LowKa Studio
 
-1. **Berangkat dari "Low-Cost"**: Dalam pelafalan fonetik lokal Indonesia, *Low-Co* berbunyi **Low-Ko**.
+1. **Berangkat dari "Low-Cost"**: Dalam pelafalan fonetik lokal masyarakat Indonesia, *Low-Co* berbunyi **Low-Ko**.
 2. **Huruf 'O' diubah menjadi 'A' (LowKa)**:
-   - **"A" adalah huruf pertama dalam alfabet**, merepresentasikan **"Website Pertama" / "Langkah Pertama"** bagi pelaku usaha untuk hadir di internet.
-   - Tanpa biaya server bulanan yang mahal, tanpa sistem yang membingungkan. Yang terpenting: **bisnis kamu ada dulu di internet, terdaftar di Google, dan langsung terhubung ke WhatsApp.**
+   - **"A" adalah huruf pertama dalam alfabet**, merepresentasikan **"Website Pertama" / "Langkah Pertama"** bagi bisnis untuk hadir secara resmi di internet.
+   - Prinsip kerja: Tanpa biaya server bulanan yang membebani dan tanpa sistem yang rumit. **Yang terpenting: bisnis kamu ada dulu di internet, mudah dicari di Google, dan langsung terhubung ke WhatsApp.**
 
 ---
 
 ## ✨ Fitur Utama
 
-- **Single-Page Vertical Scroll:** Alur bercerita dari perkenalan, filosofi nama, nilai untuk UMKM, karya pertama, hingga kontak.
+- **Single-Page Vertical Scroll:** Desain ringkas dan *user-centric* (terinspirasi dari konsep [olaolu.dev](https://olaolu.dev/)), memandu pengunjung dari pengenalan, filosofi nama, pilar solusi, hingga portofolio.
 - **Bilingual Switcher (ID / EN):** Pilihan bahasa instan (Indonesia & English) dengan penyimpanan preferensi di `localStorage`.
 - **Studi Kasus FuRi Valentine Batik:** Showcase proyek nyata pengrajin batik khas Kota Bekasi ([valentinebatik.pages.dev](https://valentinebatik.pages.dev/)).
-- **Zero Server Overhead:** Siap di-deploy statis/edge ke Cloudflare Pages atau Vercel tanpa biaya bulanan.
-- **Skor Performa Tinggi:** Dibangun dengan Next.js App Router dan Tailwind CSS untuk akses super cepat di jaringan seluler.
+- **Zero Server Overhead:** Siap di-deploy statis/edge ke Cloudflare Pages atau Vercel tanpa biaya sewa server bulanan.
+- **Skor Performa Tinggi:** Dibangun dengan Next.js App Router dan Tailwind CSS untuk akses super cepat di perangkat HP.
 
 ---
 
@@ -50,25 +50,22 @@ npm install
 npm run dev
 ```
 
-Buka [http://localhost:3000](http://localhost:3000) di browser kamu.
+Buka [http://localhost:3000](http://localhost:3000) di browsermu.
 
 ---
 
-## 🌐 Build & Deployment (Cloudflare Pages)
+## 🌐 Build & Deployment
 
 ```bash
 npm run build
 ```
 
-Untuk deploy ke Cloudflare Pages:
-- **Build command:** `npx @cloudflare/next-on-pages` atau `npm run build`
-- **Output directory:** `.next` atau `out`
+Siap di-deploy langsung ke Cloudflare Pages atau Vercel.
 
 ---
 
-## 📬 Kontak
+## 📬 Kontak LowKa Studio
 
-- **Founder:** Candra Agung Alief Prasetyo
-- **Email:** [candraaliefp@gmail.com](mailto:candraaliefp@gmail.com)
 - **WhatsApp:** [+62 858-6614-0707](https://wa.me/6285866140707)
-- **GitHub:** [@candraalief](https://github.com/candraalief)
+- **Email:** [candraaliefp@gmail.com](mailto:candraaliefp@gmail.com)
+- **GitHub Repo:** [candraalief/lowka-studio](https://github.com/candraalief/lowka-studio)

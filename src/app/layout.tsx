@@ -13,23 +13,23 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Candra AAP — LowKa Studio | Website Simpel & Ramah Anggaran untuk UMKM",
+  title: "LowKa Studio — Website Pertama Simpel & Ramah Anggaran untuk UMKM",
   description:
-    "Mahasiswa Ilmu Komputer IPB & founder LowKa Studio. Membantu bisnis dan UMKM di Indonesia memiliki website pertama yang simpel, kencang, dan ramah kantong.",
+    "Studio pembuatan website untuk UMKM dan bisnis di Indonesia. Membantu bisnismu memiliki website pertama yang simpel, kencang, dan ramah kantong tanpa biaya server mahal.",
   keywords: [
-    "Candra Agung Alief Prasetyo",
     "LowKa Studio",
     "Website UMKM",
-    "Pembuatan Website Murah",
-    "Ilmu Komputer IPB",
+    "Jasa Pembuatan Website",
+    "Website Ramah Anggaran",
+    "Company Profile Murah",
     "Valentine Batik",
-    "Portfolio Web Developer",
+    "Next.js Cloudflare Pages",
   ],
-  authors: [{ name: "Candra Agung Alief Prasetyo" }],
+  authors: [{ name: "LowKa Studio" }],
   openGraph: {
-    title: "Candra AAP — LowKa Studio",
+    title: "LowKa Studio — Solusi Website UMKM Indonesia",
     description:
-      "Membantu UMKM Indonesia punya website pertama yang simpel, kencang, dan ramah kantong.",
+      "Website pertama yang simpel, kencang, dan ramah kantong untuk bisnis kamu.",
     url: "https://github.com/candraalief/lowka-studio",
     siteName: "LowKa Studio",
     locale: "id_ID",

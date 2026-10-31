@@ -2,7 +2,7 @@
 
 import React from "react";
 import { useLanguage } from "@/context/LanguageContext";
-import { Lightbulb, HelpCircle, Gamepad2, GraduationCap } from "lucide-react";
+import { Lightbulb, Cpu, GraduationCap } from "lucide-react";
 
 export default function StorySection() {
   const { dict } = useLanguage();
@@ -51,7 +51,7 @@ export default function StorySection() {
           </div>
         </div>
 
-        {/* Narrative & Reality */}
+        {/* Narrative & Studio Capabilities */}
         <div className="grid md:grid-cols-3 gap-6">
           <div className="md:col-span-2 p-8 rounded-2xl bg-zinc-900/40 border border-zinc-800">
             <h3 className="text-lg font-bold text-zinc-100 mb-3 flex items-center gap-2">
@@ -74,8 +74,8 @@ export default function StorySection() {
               </p>
             </div>
             <div className="flex items-center gap-2 text-xs font-mono text-zinc-400 pt-3 border-t border-zinc-800/60">
-              <Gamepad2 size={15} className="text-amber-400" />
-              <span>Gamedev & Efficient Systems</span>
+              <Cpu size={15} className="text-amber-400" />
+              <span>Lightweight & High-Performance</span>
             </div>
           </div>
         </div>
