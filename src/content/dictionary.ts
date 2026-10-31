@@ -49,7 +49,7 @@ export const dictionaries: Record<Language, Dictionary> = {
       leadHighlight: "simpel, kencang, dan ramah kantong untuk bisnis kamu.",
       p1: "Banyak bisnis di Indonesia belum punya website bukan karena tidak butuh, tapi karena bingung cara mulainya dan takut biayanya mahal.",
       p2: "LowKa berangkat dari kata 'Low-Cost' (Low-Ko). Huruf 'O' kami ganti 'A' sebagai simbol langkah awal untuk website pertamamu.",
-      p3: "Prinsip kami cukup sederhana, yang penting bisnismu ada dulu di internet, mudah dicari di Google, dan langsung terhubung ke WhatsAppmu tanpa perantara.",
+      p3: "Prinsip kami cukup sederhana, yang penting bisnismu ada dulu di internet, mudah dicari di Google, dan langsung terhubung ke bisnismu tanpa perantara.",
       contactLink: "Hubungi kami",
     },
     work: {
@@ -86,7 +86,7 @@ export const dictionaries: Record<Language, Dictionary> = {
       leadHighlight: "fast, simple, and budget-friendly website for your business.",
       p1: "Most businesses in Indonesia don't have a website not because they don't need one, but because they're unsure where to start and fear high costs.",
       p2: "LowKa stems from 'Low-Cost' (Low-Ko). We replaced 'O' with 'A' as a symbol of taking the first step for your very first website.",
-      p3: "Our principle is simple: get your business online first, make it easy to find on Google, and connect customers directly to your WhatsApp without friction.",
+      p3: "Our principle is simple: get your business online first, make it easy to find on Google, and connect customers directly without friction.",
       contactLink: "Contact us",
     },
     work: {

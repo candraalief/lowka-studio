@@ -65,11 +65,7 @@ export default function WorkSection() {
 
           {/* Card 2: Bisnis Kamu */}
           <a
-            href={`https://wa.me/${process.env.NEXT_PUBLIC_WHATSAPP_NUMBER || "6285866140707"}?text=${encodeURIComponent(
-              language === "id"
-                ? "Halo LowKa Studio, saya tertarik untuk membuat website pertama untuk bisnis saya."
-                : "Hello LowKa Studio, I'm interested in building the first website for my business."
-            )}`}
+            href="https://instagram.com/lowkastudio"
             target="_blank"
             rel="noopener noreferrer"
             className="group bg-white rounded-2xl border border-dashed border-zinc-300 overflow-hidden hover:border-[#5e3bee] hover:shadow-xl hover:shadow-[#5e3bee]/10 transition-all duration-300 flex flex-col justify-between cursor-pointer"
@@ -92,7 +88,11 @@ export default function WorkSection() {
                 {language === "id" ? "Bisnis Kamu" : "Your Business"}
               </h3>
               <div className="inline-flex items-center gap-1 text-sm font-medium text-[#5e3bee] group-hover:underline">
-                <span>{language === "id" ? "Hubungi Studio Kami" : "Contact Our Studio"}</span>
+                <span>
+                  {language === "id"
+                    ? "DM @lowkastudio di Instagram"
+                    : "DM @lowkastudio on Instagram"}
+                </span>
                 <svg
                   className="w-3.5 h-3.5 group-hover:translate-x-0.5 group-hover:-translate-y-0.5 transition-transform"
                   viewBox="0 0 16 16"

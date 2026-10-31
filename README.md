@@ -12,7 +12,7 @@ Website resmi (*single-page scroll*) untuk **LowKa Studio**, studio pengembangan
 1. **Berangkat dari "Low-Cost"**: Dalam pelafalan fonetik lokal masyarakat Indonesia, *Low-Co* berbunyi **Low-Ko**.
 2. **Huruf 'O' diubah menjadi 'A' (LowKa)**:
    - **"A" adalah huruf pertama dalam alfabet**, merepresentasikan **"Website Pertama" / "Langkah Pertama"** bagi bisnis untuk hadir secara resmi di internet.
-   - Prinsip kerja: Tanpa biaya server bulanan yang membebani dan tanpa sistem yang rumit. **Yang terpenting: bisnis kamu ada dulu di internet, mudah dicari di Google, dan langsung terhubung ke WhatsApp.**
+   - Prinsip kerja: Tanpa biaya server bulanan yang membebani dan tanpa sistem yang rumit. **Yang terpenting: bisnis kamu ada dulu di internet, mudah dicari di Google, dan langsung terhubung ke Instagram/pelanggan tanpa perantara.**
 
 ---
 
