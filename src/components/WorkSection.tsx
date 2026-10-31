@@ -63,24 +63,24 @@ export default function WorkSection() {
             </div>
           </div>
 
-          {/* Card 2: Website Kamu Berikutnya */}
+          {/* Card 2: Bisnis Kamu */}
           <div className="group bg-white rounded-2xl border border-dashed border-zinc-300 overflow-hidden hover:border-[#5e3bee]/50 hover:shadow-xl hover:shadow-zinc-200/40 transition-all duration-300 flex flex-col justify-between">
             {/* Top Showcase Area */}
             <div className="h-48 sm:h-56 bg-zinc-50/50 flex flex-col items-center justify-center p-8 border-b border-zinc-100 text-center">
-              <span className="text-base font-semibold text-zinc-500 mb-1">
-                {language === "id" ? "Bisnis Kamu Berikutnya" : "Your Business Next"}
+              <span className="text-2xl sm:text-3xl font-bold tracking-tight text-zinc-700 group-hover:scale-105 transition-transform inline-block mb-1">
+                {language === "id" ? "Bisnis Kamu" : "Your Business"}
               </span>
-              <span className="text-xs text-zinc-400 max-w-[200px]">
+              <span className="text-xs text-zinc-400 font-mono tracking-wide">
                 {language === "id"
-                  ? "Website pertama untuk bisnismu yang siap tampil di Google"
-                  : "The first website for your business, ready for Google"}
+                  ? "website pertama untuk bisnismu"
+                  : "the first website for your business"}
               </span>
             </div>
 
             {/* Bottom Card Footer */}
             <div className="p-6">
               <h3 className="font-bold text-[#121316] text-base mb-1">
-                {language === "id" ? "Mulai Langkah Pertamamu" : "Take Your First Step"}
+                {language === "id" ? "Bisnis Kamu" : "Your Business"}
               </h3>
               <a
                 href="#contact"
