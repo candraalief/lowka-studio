@@ -27,10 +27,12 @@ export default function ContactSection() {
               </li>
               <li>
                 <a
-                  href="#"
+                  href={contact.instagramUrl}
+                  target="_blank"
+                  rel="noopener noreferrer"
                   className="text-[#5e3bee] hover:underline inline-flex items-center gap-1.5"
                 >
-                  <span>{contact.whatsapp}</span>
+                  <span>{contact.instagram}</span>
                   <svg
                     className="w-4 h-4"
                     viewBox="0 0 16 16"
@@ -54,10 +56,12 @@ export default function ContactSection() {
             </span>
             <div className="flex items-center gap-6 text-sm font-semibold text-zinc-600">
               <a
-                href="#"
+                href={contact.instagramUrl}
+                target="_blank"
+                rel="noopener noreferrer"
                 className="hover:text-[#5e3bee] transition-colors"
               >
-                WA
+                IG
               </a>
               <a
                 href={`mailto:${contact.email}`}

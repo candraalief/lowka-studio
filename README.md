@@ -67,3 +67,4 @@ Siap di-deploy langsung ke Cloudflare Pages atau Vercel.
 ## 📬 Kontak LowKa Studio
 
 - **Email:** [lowkastudio@gmail.com](mailto:lowkastudio@gmail.com)
+- **Instagram:** [@lowkastudio](https://instagram.com/lowkastudio)

@@ -30,7 +30,8 @@ export interface Dictionary {
   contact: {
     heading: string;
     email: string;
-    whatsapp: string;
+    instagram: string;
+    instagramUrl: string;
     copyright: string;
   };
 }
@@ -68,7 +69,8 @@ export const dictionaries: Record<Language, Dictionary> = {
     contact: {
       heading: "Say Hello",
       email: "lowkastudio@gmail.com",
-      whatsapp: "Chat via WhatsApp",
+      instagram: "@lowkastudio",
+      instagramUrl: "https://instagram.com/lowkastudio",
       copyright: "© LowKa Studio 2026",
     },
   },
@@ -104,7 +106,8 @@ export const dictionaries: Record<Language, Dictionary> = {
     contact: {
       heading: "Say Hello",
       email: "lowkastudio@gmail.com",
-      whatsapp: "Chat via WhatsApp",
+      instagram: "@lowkastudio",
+      instagramUrl: "https://instagram.com/lowkastudio",
       copyright: "© LowKa Studio 2026",
     },
   },
