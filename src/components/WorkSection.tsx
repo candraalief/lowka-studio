@@ -23,7 +23,12 @@ export default function WorkSection() {
         {/* 2-Column Balanced Grid */}
         <div className="grid sm:grid-cols-2 max-w-3xl mx-auto gap-6 sm:gap-8">
           {/* Card 1: FuRi Valentine Batik */}
-          <div className="group bg-white rounded-2xl border border-zinc-200/70 overflow-hidden hover:border-zinc-300 hover:shadow-xl hover:shadow-zinc-200/40 transition-all duration-300 flex flex-col justify-between">
+          <a
+            href="https://valentinebatik.pages.dev/"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="group bg-white rounded-2xl border border-zinc-200/70 overflow-hidden hover:border-[#5e3bee]/60 hover:shadow-xl hover:shadow-zinc-200/40 transition-all duration-300 flex flex-col justify-between cursor-pointer"
+          >
             {/* Top Showcase Area with Logo */}
             <div className="h-48 sm:h-56 bg-gradient-to-b from-zinc-50/80 to-white flex items-center justify-center p-8 border-b border-zinc-100">
               <div className="text-center">
@@ -41,15 +46,10 @@ export default function WorkSection() {
               <h3 className="font-bold text-[#121316] text-base mb-1">
                 FuRi Valentine Batik
               </h3>
-              <a
-                href="https://valentinebatik.pages.dev/"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="inline-flex items-center gap-1 text-sm font-medium text-[#5e3bee] hover:underline"
-              >
+              <div className="inline-flex items-center gap-1 text-sm font-medium text-[#5e3bee] group-hover:underline">
                 <span>valentinebatik.pages.dev</span>
                 <svg
-                  className="w-3.5 h-3.5"
+                  className="w-3.5 h-3.5 group-hover:translate-x-0.5 group-hover:-translate-y-0.5 transition-transform"
                   viewBox="0 0 16 16"
                   fill="none"
                   stroke="currentColor"
@@ -59,15 +59,24 @@ export default function WorkSection() {
                 >
                   <path d="M3.5 12.5 12.5 3.5M6 3.5h6.5V10" />
                 </svg>
-              </a>
+              </div>
             </div>
-          </div>
+          </a>
 
           {/* Card 2: Bisnis Kamu */}
-          <div className="group bg-white rounded-2xl border border-dashed border-zinc-300 overflow-hidden hover:border-[#5e3bee]/50 hover:shadow-xl hover:shadow-zinc-200/40 transition-all duration-300 flex flex-col justify-between">
+          <a
+            href={`https://wa.me/${process.env.NEXT_PUBLIC_WHATSAPP_NUMBER || "6285866140707"}?text=${encodeURIComponent(
+              language === "id"
+                ? "Halo LowKa Studio, saya tertarik untuk membuat website pertama untuk bisnis saya."
+                : "Hello LowKa Studio, I'm interested in building the first website for my business."
+            )}`}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="group bg-white rounded-2xl border border-dashed border-zinc-300 overflow-hidden hover:border-[#5e3bee] hover:shadow-xl hover:shadow-[#5e3bee]/10 transition-all duration-300 flex flex-col justify-between cursor-pointer"
+          >
             {/* Top Showcase Area */}
             <div className="h-48 sm:h-56 bg-zinc-50/50 flex flex-col items-center justify-center p-8 border-b border-zinc-100 text-center">
-              <span className="text-2xl sm:text-3xl font-bold tracking-tight text-zinc-700 group-hover:scale-105 transition-transform inline-block mb-1">
+              <span className="text-2xl sm:text-3xl font-bold tracking-tight text-zinc-700 group-hover:scale-105 group-hover:text-[#5e3bee] transition-all inline-block mb-1">
                 {language === "id" ? "Bisnis Kamu" : "Your Business"}
               </span>
               <span className="text-xs text-zinc-400 font-mono tracking-wide">
@@ -82,13 +91,10 @@ export default function WorkSection() {
               <h3 className="font-bold text-[#121316] text-base mb-1">
                 {language === "id" ? "Bisnis Kamu" : "Your Business"}
               </h3>
-              <a
-                href="#contact"
-                className="inline-flex items-center gap-1 text-sm font-medium text-[#5e3bee] hover:underline"
-              >
+              <div className="inline-flex items-center gap-1 text-sm font-medium text-[#5e3bee] group-hover:underline">
                 <span>{language === "id" ? "Hubungi Studio Kami" : "Contact Our Studio"}</span>
                 <svg
-                  className="w-3.5 h-3.5"
+                  className="w-3.5 h-3.5 group-hover:translate-x-0.5 group-hover:-translate-y-0.5 transition-transform"
                   viewBox="0 0 16 16"
                   fill="none"
                   stroke="currentColor"
@@ -98,9 +104,9 @@ export default function WorkSection() {
                 >
                   <path d="M3.5 12.5 12.5 3.5M6 3.5h6.5V10" />
                 </svg>
-              </a>
+              </div>
             </div>
-          </div>
+          </a>
         </div>
       </div>
     </section>
