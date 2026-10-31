@@ -23,12 +23,11 @@ export default function Hero() {
           </span>
         </h1>
 
-        {/* 4 Clean Editorial Paragraphs */}
+        {/* 3 Clean Editorial Paragraphs */}
         <div className="space-y-6 text-[17px] sm:text-lg text-zinc-600 font-normal leading-[1.8] max-w-2xl mb-10">
           <p>{hero.p1}</p>
           <p>{hero.p2}</p>
           <p>{hero.p3}</p>
-          <p>{hero.p4}</p>
         </div>
 
         {/* Purple Contact Link with 45-degree arrow */}

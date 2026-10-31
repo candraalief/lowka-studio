@@ -13,7 +13,6 @@ export interface Dictionary {
     p1: string;
     p2: string;
     p3: string;
-    p4: string;
     contactLink: string;
   };
   work: {
@@ -50,9 +49,8 @@ export const dictionaries: Record<Language, Dictionary> = {
       leadTitle: "Membangun website ",
       leadHighlight: "simpel, kencang, dan ramah kantong untuk bisnis kamu.",
       p1: "Banyak UMKM di Indonesia belum punya website bukan karena tidak butuh, namun karena biaya yang tidak diketahui.",
-      p2: "LowKa berangkat dari kata 'Low-Cost' (Low-Ko). Sekali payment untuk perusahaanmu tanpa biaya langganan yang membingungkan.",
-      p3: "Prinsip kami simpel: yang penting bisnismu ada dulu di internet, mudah dicari di Google, dan langsung terhubung ke WhatsApp.",
-      p4: "Dibangun dengan teknologi web modern oleh talenta Ilmu Komputer IPB tanpa beban server bulanan.",
+      p2: "LowKa berangkat dari kata 'Low-Cost' (Low-Ko). Huruf 'O' kami ganti 'A' sebagai simbol langkah awal untuk website pertamamu.",
+      p3: "Prinsip kami cukup sederhana, yang penting bisnismu ada dulu di internet, mudah dicari di Google, dan langsung terhubung ke WhatsAppmu tanpa perantara.",
       contactLink: "Hubungi kami",
     },
     work: {
@@ -88,10 +86,9 @@ export const dictionaries: Record<Language, Dictionary> = {
       eyebrow: "HEY, WE'RE LOWKA STUDIO",
       leadTitle: "Crafting the first ",
       leadHighlight: "fast, simple, and budget-friendly website for your business.",
-      p1: "Most businesses in Indonesia don't lack a website because they don't need one, but because of unknown, hidden costs.",
-      p2: "LowKa stems from 'Low-Cost' (Low-Ko). A single one-time payment for your company with zero confusing recurring fees.",
-      p3: "Our philosophy is simple: get your business online first, make it easy to find on Google, and connect customers directly to WhatsApp.",
-      p4: "Built with modern lightweight web technology by IPB University Computer Science talent—free from monthly server bills.",
+      p1: "Most businesses in Indonesia don't have a website not because they don't need one, but because of unknown costs.",
+      p2: "LowKa stems from 'Low-Cost' (Low-Ko). We replaced 'O' with 'A' as a symbol of taking the first step for your very first website.",
+      p3: "Our principle is simple: get your business online first, make it easy to find on Google, and connect customers directly to your WhatsApp without friction.",
       contactLink: "Contact us",
     },
     work: {
