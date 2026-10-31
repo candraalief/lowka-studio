@@ -4,7 +4,7 @@ import React from "react";
 import { useLanguage } from "@/context/LanguageContext";
 
 export default function WorkSection() {
-  const { dict, language } = useLanguage();
+  const { dict } = useLanguage();
   const work = dict.work;
 
   return (
@@ -20,17 +20,16 @@ export default function WorkSection() {
           </p>
         </div>
 
-        {/* 3-Column Minimalist Grid like Olaolu Screenshot 2 */}
-        <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-6 sm:gap-8">
-          {/* Card 1: FuRi Valentine Batik */}
+        {/* Clean Showcase for Real Project: FuRi Valentine Batik */}
+        <div className="max-w-md mx-auto">
           <div className="group bg-white rounded-2xl border border-zinc-200/70 overflow-hidden hover:border-zinc-300 hover:shadow-xl hover:shadow-zinc-200/40 transition-all duration-300 flex flex-col justify-between">
             {/* Top Showcase Area with Logo */}
-            <div className="h-48 sm:h-56 bg-gradient-to-b from-zinc-50/80 to-white flex items-center justify-center p-8 border-b border-zinc-100">
+            <div className="h-52 sm:h-60 bg-gradient-to-b from-zinc-50/80 to-white flex items-center justify-center p-8 border-b border-zinc-100">
               <div className="text-center">
-                <span className="font-serif italic text-2xl sm:text-3xl font-bold tracking-tight text-amber-900 group-hover:scale-105 transition-transform inline-block">
+                <span className="font-serif italic text-3xl sm:text-4xl font-bold tracking-tight text-amber-900 group-hover:scale-105 transition-transform inline-block">
                   Valentine Batik
                 </span>
-                <span className="block text-[11px] font-mono tracking-widest text-amber-700/80 uppercase mt-1">
+                <span className="block text-[11px] font-mono tracking-widest text-amber-700/80 uppercase mt-2">
                   Motif Khas Bekasi
                 </span>
               </div>
@@ -48,70 +47,6 @@ export default function WorkSection() {
                 className="inline-flex items-center gap-1 text-sm font-medium text-[#5e3bee] hover:underline"
               >
                 <span>valentinebatik.pages.dev</span>
-                <svg
-                  className="w-3.5 h-3.5"
-                  viewBox="0 0 16 16"
-                  fill="none"
-                  stroke="currentColor"
-                  strokeWidth="2"
-                  strokeLinecap="round"
-                  strokeLinejoin="round"
-                >
-                  <path d="M3.5 12.5 12.5 3.5M6 3.5h6.5V10" />
-                </svg>
-              </a>
-            </div>
-          </div>
-
-          {/* Card 2: LowKa Studio System */}
-          <div className="group bg-white rounded-2xl border border-zinc-200/70 overflow-hidden hover:border-zinc-300 hover:shadow-xl hover:shadow-zinc-200/40 transition-all duration-300 flex flex-col justify-between">
-            {/* Top Showcase Area with Logo */}
-            <div className="h-48 sm:h-56 bg-gradient-to-b from-zinc-50/80 to-white flex items-center justify-center p-8 border-b border-zinc-100">
-              <div className="text-center">
-                <span className="text-3xl font-bold tracking-tight text-[#121316] group-hover:scale-105 transition-transform inline-block">
-                  lowka<span className="text-[#5e3bee]">.</span>
-                </span>
-                <span className="block text-[11px] font-mono tracking-widest text-zinc-400 uppercase mt-1">
-                  Studio Platform
-                </span>
-              </div>
-            </div>
-
-            {/* Bottom Card Footer */}
-            <div className="p-6">
-              <h3 className="font-bold text-[#121316] text-base mb-1">
-                LowKa Studio Web
-              </h3>
-              <span className="inline-flex items-center gap-1 text-sm font-medium text-zinc-500">
-                <span>lowkastudio.pages.dev</span>
-              </span>
-            </div>
-          </div>
-
-          {/* Card 3: Next UMKM Showcase */}
-          <div className="group bg-white rounded-2xl border border-dashed border-zinc-300 overflow-hidden hover:border-[#5e3bee]/50 hover:shadow-xl hover:shadow-zinc-200/40 transition-all duration-300 flex flex-col justify-between">
-            {/* Top Showcase Area with Logo */}
-            <div className="h-48 sm:h-56 bg-zinc-50/50 flex flex-col items-center justify-center p-8 border-b border-zinc-100 text-center">
-              <span className="text-base font-semibold text-zinc-400 mb-1">
-                {language === "id" ? "Bisnis Kamu Berikutnya" : "Your Business Next"}
-              </span>
-              <span className="text-xs text-zinc-400 max-w-[200px]">
-                {language === "id"
-                  ? "Website pertama untuk bisnismu yang siap tampil di Google"
-                  : "The first website for your business, ready for Google"}
-              </span>
-            </div>
-
-            {/* Bottom Card Footer */}
-            <div className="p-6">
-              <h3 className="font-bold text-[#121316] text-base mb-1">
-                {language === "id" ? "Mulai Langkah Pertamamu" : "Take Your First Step"}
-              </h3>
-              <a
-                href="#contact"
-                className="inline-flex items-center gap-1 text-sm font-medium text-[#5e3bee] hover:underline"
-              >
-                <span>{language === "id" ? "Hubungi Studio Kami" : "Contact Our Studio"}</span>
                 <svg
                   className="w-3.5 h-3.5"
                   viewBox="0 0 16 16"
