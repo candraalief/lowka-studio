@@ -2,75 +2,57 @@
 
 import React from "react";
 import { useLanguage } from "@/context/LanguageContext";
-import { ArrowDown, MessageCircle, Sparkles, ShieldCheck } from "lucide-react";
 
 export default function Hero() {
   const { dict } = useLanguage();
+  const hero = dict.hero;
 
   return (
-    <section
-      id="hero"
-      className="relative pt-32 pb-20 md:pt-44 md:pb-28 overflow-hidden"
-    >
-      {/* Background ambient glow */}
-      <div className="absolute top-1/4 left-1/2 -translate-x-1/2 w-[550px] h-[350px] bg-gradient-to-tr from-amber-500/10 via-orange-500/10 to-transparent blur-3xl pointer-events-none -z-10" />
-
-      <div className="max-w-5xl mx-auto px-5 sm:px-8">
-        {/* Eyebrow / Intro tag */}
-        <div className="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full bg-zinc-900/90 border border-zinc-800 text-xs font-mono text-zinc-300 mb-8 backdrop-blur-sm">
-          <Sparkles size={14} className="text-amber-400" />
-          <span>{dict.hero.eyebrow}</span>
-        </div>
-
-        {/* Big Bold Headline (Olaolu style) */}
-        <h1 className="text-4xl sm:text-6xl md:text-7xl font-bold tracking-tight text-zinc-100 leading-[1.08] mb-8 max-w-4xl">
-          {dict.hero.headlinePart1}
-          <span className="text-transparent bg-clip-text bg-gradient-to-r from-amber-400 via-orange-400 to-amber-200">
-            {dict.hero.headlineHighlight}
-          </span>
-          {dict.hero.headlinePart2}
-        </h1>
-
-        {/* Subtitle / Narrative */}
-        <p className="text-lg sm:text-xl text-zinc-400 font-normal leading-relaxed max-w-2xl mb-10">
-          {dict.hero.description}
+    <section id="home" className="pt-8 pb-20 md:pt-14 md:pb-28">
+      <div className="max-w-4xl mx-auto px-6 sm:px-10">
+        {/* Eyebrow: exactly like Olaolu "HEY, I'M OLAOLU" */}
+        <p className="text-xs sm:text-[13px] font-semibold tracking-[0.22em] text-zinc-400 uppercase mb-6">
+          {hero.eyebrow}
         </p>
 
-        {/* CTA Buttons */}
-        <div className="flex flex-wrap items-center gap-4">
-          <a
-            href="#projects"
-            className="inline-flex items-center gap-2.5 px-6 py-3.5 rounded-xl bg-amber-400 hover:bg-amber-300 text-zinc-950 font-bold text-sm tracking-tight transition-all shadow-md hover:shadow-amber-400/20 active:scale-95"
-          >
-            <span>{dict.hero.ctaWork}</span>
-            <ArrowDown size={16} />
-          </a>
+        {/* Lead Title with purple accent */}
+        <h1 className="text-3xl sm:text-5xl md:text-[52px] font-bold tracking-tight text-[#121316] leading-[1.18] mb-10">
+          {hero.leadTitle}
+          <span className="text-[#5e3bee] font-bold">
+            {hero.leadHighlight}
+          </span>
+        </h1>
 
-          <a
-            href="https://wa.me/6285866140707?text=Halo%20Candra%2C%20saya%20tertarik%20bikin%20website%20untuk%20usaha%20saya."
-            target="_blank"
-            rel="noopener noreferrer"
-            className="inline-flex items-center gap-2 px-6 py-3.5 rounded-xl bg-zinc-900 hover:bg-zinc-800 border border-zinc-800 text-zinc-200 font-semibold text-sm transition-all hover:border-zinc-700 active:scale-95"
-          >
-            <MessageCircle size={17} className="text-emerald-400" />
-            <span>{dict.hero.ctaTalk}</span>
-          </a>
+        {/* 4 Clean Editorial Paragraphs */}
+        <div className="space-y-6 text-[17px] sm:text-lg text-zinc-600 font-normal leading-[1.8] max-w-2xl mb-10">
+          <p>{hero.p1}</p>
+          <p>{hero.p2}</p>
+          <p>{hero.p3}</p>
+          <p>{hero.p4}</p>
         </div>
 
-        {/* Quick Trust Highlights */}
-        <div className="mt-16 pt-8 border-t border-zinc-800/60 grid grid-cols-2 sm:grid-cols-3 gap-6 text-xs font-mono text-zinc-400">
-          <div className="flex items-center gap-2">
-            <span className="w-1.5 h-1.5 rounded-full bg-amber-400" />
-            <span>Tanpa Biaya Server Mahal</span>
-          </div>
-          <div className="flex items-center gap-2">
-            <span className="w-1.5 h-1.5 rounded-full bg-amber-400" />
-            <span>Skor Performa 95+ (Kencang di HP)</span>
-          </div>
-          <div className="flex items-center gap-2">
-            <span className="w-1.5 h-1.5 rounded-full bg-amber-400" />
-            <span>Langsung Terkoneksi ke WhatsApp</span>
-          </div>
+        {/* Purple Contact Link with 45-degree arrow */}
+        <div>
+          <a
+            href="https://wa.me/6285866140707?text=Halo%20LowKa%20Studio%2C%20saya%20ingin%20tanya%20pembuatan%20website%20untuk%20usaha%20saya."
+            target="_blank"
+            rel="noopener noreferrer"
+            className="inline-flex items-center gap-1.5 text-[#5e3bee] font-medium text-lg hover:underline transition-all"
+          >
+            <span>{hero.contactLink}</span>
+            <svg
+              className="w-4 h-4"
+              viewBox="0 0 16 16"
+              fill="none"
+              stroke="currentColor"
+              strokeWidth="2"
+              strokeLinecap="round"
+              strokeLinejoin="round"
+              aria-hidden="true"
+            >
+              <path d="M3.5 12.5 12.5 3.5M6 3.5h6.5V10" />
+            </svg>
+          </a>
         </div>
       </div>
     </section>
