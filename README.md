@@ -1,36 +1,74 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# LowKa Studio • Portfolio
 
-## Getting Started
+> **"Membangun website pertama yang simpel, kencang, dan ramah kantong untuk UMKM Indonesia."**  
+> *Crafting the very first website that's fast, simple, and budget-friendly for Indonesian businesses.*
 
-First, run the development server:
+Website portofolio 1-halaman (*single-page scroll*) bergaya editorial dan *user-centric* (terinspirasi dari [olaolu.dev](https://olaolu.dev/)) untuk **Candra Agung Alief Prasetyo (Candra AAP)**, Mahasiswa Ilmu Komputer IPB University dan pendiri **LowKa Studio**.
+
+---
+
+## 💡 Filosofi Brand: LowKa Studio
+
+1. **Berangkat dari "Low-Cost"**: Dalam pelafalan fonetik lokal Indonesia, *Low-Co* berbunyi **Low-Ko**.
+2. **Huruf 'O' diubah menjadi 'A' (LowKa)**:
+   - **"A" adalah huruf pertama dalam alfabet**, merepresentasikan **"Website Pertama" / "Langkah Pertama"** bagi pelaku usaha untuk hadir di internet.
+   - Tanpa biaya server bulanan yang mahal, tanpa sistem yang membingungkan. Yang terpenting: **bisnis kamu ada dulu di internet, terdaftar di Google, dan langsung terhubung ke WhatsApp.**
+
+---
+
+## ✨ Fitur Utama
+
+- **Single-Page Vertical Scroll:** Alur bercerita dari perkenalan, filosofi nama, nilai untuk UMKM, karya pertama, hingga kontak.
+- **Bilingual Switcher (ID / EN):** Pilihan bahasa instan (Indonesia & English) dengan penyimpanan preferensi di `localStorage`.
+- **Studi Kasus FuRi Valentine Batik:** Showcase proyek nyata pengrajin batik khas Kota Bekasi ([valentinebatik.pages.dev](https://valentinebatik.pages.dev/)).
+- **Zero Server Overhead:** Siap di-deploy statis/edge ke Cloudflare Pages atau Vercel tanpa biaya bulanan.
+- **Skor Performa Tinggi:** Dibangun dengan Next.js App Router dan Tailwind CSS untuk akses super cepat di jaringan seluler.
+
+---
+
+## 🛠️ Tech Stack
+
+- **Framework:** Next.js (App Router)
+- **Library:** React 19, TypeScript
+- **Styling:** Tailwind CSS v4
+- **Icons:** Lucide React
+- **Target Deployment:** Cloudflare Pages / Vercel
+
+---
+
+## 🚀 Menjalankan Secara Lokal
 
 ```bash
+# Clone repositori
+git clone https://github.com/candraalief/lowka-studio.git
+cd lowka-studio
+
+# Install dependensi
+npm install
+
+# Jalankan server development
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Buka [http://localhost:3000](http://localhost:3000) di browser kamu.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+---
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## 🌐 Build & Deployment (Cloudflare Pages)
 
-## Learn More
+```bash
+npm run build
+```
 
-To learn more about Next.js, take a look at the following resources:
+Untuk deploy ke Cloudflare Pages:
+- **Build command:** `npx @cloudflare/next-on-pages` atau `npm run build`
+- **Output directory:** `.next` atau `out`
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+---
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## 📬 Kontak
 
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+- **Founder:** Candra Agung Alief Prasetyo
+- **Email:** [candraaliefp@gmail.com](mailto:candraaliefp@gmail.com)
+- **WhatsApp:** [+62 858-6614-0707](https://wa.me/6285866140707)
+- **GitHub:** [@candraalief](https://github.com/candraalief)
