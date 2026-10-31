@@ -67,7 +67,7 @@ export const dictionaries: Record<Language, Dictionary> = {
     },
     contact: {
       heading: "Say Hello",
-      email: "candraaliefp@gmail.com",
+      email: "lowkastudio@gmail.com",
       whatsapp: "Chat via WhatsApp",
       copyright: "© LowKa Studio 2026",
     },
@@ -103,7 +103,7 @@ export const dictionaries: Record<Language, Dictionary> = {
     },
     contact: {
       heading: "Say Hello",
-      email: "candraaliefp@gmail.com",
+      email: "lowkastudio@gmail.com",
       whatsapp: "Chat via WhatsApp",
       copyright: "© LowKa Studio 2026",
     },

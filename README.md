@@ -66,6 +66,4 @@ Siap di-deploy langsung ke Cloudflare Pages atau Vercel.
 
 ## 📬 Kontak LowKa Studio
 
-- **WhatsApp:** [+62 858-6614-0707](https://wa.me/6285866140707)
-- **Email:** [candraaliefp@gmail.com](mailto:candraaliefp@gmail.com)
-- **GitHub Repo:** [candraalief/lowka-studio](https://github.com/candraalief/lowka-studio)
+- **Email:** [lowkastudio@gmail.com](mailto:lowkastudio@gmail.com)
