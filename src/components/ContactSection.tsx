@@ -27,9 +27,7 @@ export default function ContactSection() {
               </li>
               <li>
                 <a
-                  href="https://wa.me/6285866140707?text=Halo%20LowKa%20Studio%2C%20saya%20tertarik%20bikin%20website%20untuk%20usaha%20saya."
-                  target="_blank"
-                  rel="noopener noreferrer"
+                  href="#"
                   className="text-[#5e3bee] hover:underline inline-flex items-center gap-1.5"
                 >
                   <span>{contact.whatsapp}</span>
@@ -49,24 +47,14 @@ export default function ContactSection() {
             </ul>
           </div>
 
-          {/* Socials / Repo */}
+          {/* Socials / Direct */}
           <div className="flex flex-col md:items-end">
             <span className="text-xs font-semibold uppercase tracking-[0.2em] text-zinc-400 block mb-4">
               Connect
             </span>
             <div className="flex items-center gap-6 text-sm font-semibold text-zinc-600">
               <a
-                href="https://github.com/candraalief/lowka-studio"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="hover:text-[#5e3bee] transition-colors"
-              >
-                GH
-              </a>
-              <a
-                href="https://wa.me/6285866140707"
-                target="_blank"
-                rel="noopener noreferrer"
+                href="#"
                 className="hover:text-[#5e3bee] transition-colors"
               >
                 WA

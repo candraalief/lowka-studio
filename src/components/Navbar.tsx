@@ -81,15 +81,6 @@ export default function Navbar() {
           >
             {dict.nav.sayHello}
           </a>
-          <a
-            href="https://wa.me/6285866140707"
-            target="_blank"
-            rel="noopener noreferrer"
-            onClick={() => setMenuOpen(false)}
-            className="text-[#5e3bee] hover:underline"
-          >
-            WhatsApp ↗
-          </a>
         </div>
       )}
     </header>

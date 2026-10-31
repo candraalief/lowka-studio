@@ -30,12 +30,10 @@ export default function Hero() {
           <p>{hero.p3}</p>
         </div>
 
-        {/* Purple Contact Link with 45-degree arrow */}
+        {/* Contact Link scrolling to #contact */}
         <div>
           <a
-            href="https://wa.me/6285866140707?text=Halo%20LowKa%20Studio%2C%20saya%20ingin%20tanya%20pembuatan%20website%20untuk%20usaha%20saya."
-            target="_blank"
-            rel="noopener noreferrer"
+            href="#contact"
             className="inline-flex items-center gap-1.5 text-[#5e3bee] font-medium text-lg hover:underline transition-all"
           >
             <span>{hero.contactLink}</span>

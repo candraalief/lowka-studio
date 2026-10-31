@@ -82,29 +82,13 @@ export default function WorkSection() {
               <h3 className="font-bold text-[#121316] text-base mb-1">
                 LowKa Studio Web
               </h3>
-              <a
-                href="https://github.com/candraalief/lowka-studio"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="inline-flex items-center gap-1 text-sm font-medium text-[#5e3bee] hover:underline"
-              >
-                <span>github.com/candraalief/lowka-studio</span>
-                <svg
-                  className="w-3.5 h-3.5"
-                  viewBox="0 0 16 16"
-                  fill="none"
-                  stroke="currentColor"
-                  strokeWidth="2"
-                  strokeLinecap="round"
-                  strokeLinejoin="round"
-                >
-                  <path d="M3.5 12.5 12.5 3.5M6 3.5h6.5V10" />
-                </svg>
-              </a>
+              <span className="inline-flex items-center gap-1 text-sm font-medium text-zinc-500">
+                <span>lowkastudio.pages.dev</span>
+              </span>
             </div>
           </div>
 
-          {/* Card 3: Next UMKM Showcase (Call for next client) */}
+          {/* Card 3: Next UMKM Showcase */}
           <div className="group bg-white rounded-2xl border border-dashed border-zinc-300 overflow-hidden hover:border-[#5e3bee]/50 hover:shadow-xl hover:shadow-zinc-200/40 transition-all duration-300 flex flex-col justify-between">
             {/* Top Showcase Area with Logo */}
             <div className="h-48 sm:h-56 bg-zinc-50/50 flex flex-col items-center justify-center p-8 border-b border-zinc-100 text-center">
@@ -124,12 +108,10 @@ export default function WorkSection() {
                 {language === "id" ? "Mulai Langkah Pertamamu" : "Take Your First Step"}
               </h3>
               <a
-                href="https://wa.me/6285866140707?text=Halo%20LowKa%20Studio%2C%20saya%20tertarik%20bikin%20website%20untuk%20usaha%20saya."
-                target="_blank"
-                rel="noopener noreferrer"
+                href="#contact"
                 className="inline-flex items-center gap-1 text-sm font-medium text-[#5e3bee] hover:underline"
               >
-                <span>wa.me/6285866140707</span>
+                <span>{language === "id" ? "Hubungi Studio Kami" : "Contact Our Studio"}</span>
                 <svg
                   className="w-3.5 h-3.5"
                   viewBox="0 0 16 16"

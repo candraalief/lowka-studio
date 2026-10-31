@@ -30,7 +30,6 @@ export const metadata: Metadata = {
     title: "LowKa Studio — Solusi Website UMKM Indonesia",
     description:
       "Website pertama yang simpel, kencang, dan ramah kantong untuk bisnis kamu.",
-    url: "https://github.com/candraalief/lowka-studio",
     siteName: "LowKa Studio",
     locale: "id_ID",
     type: "website",
@@ -47,7 +46,7 @@ export default function RootLayout({
       lang="id"
       className={`${geistSans.variable} ${geistMono.variable} scroll-smooth antialiased`}
     >
-      <body className="min-h-screen bg-zinc-950 text-zinc-100 flex flex-col">
+      <body className="min-h-screen bg-[#fbfbfd] text-[#121316] flex flex-col">
         {children}
       </body>
     </html>

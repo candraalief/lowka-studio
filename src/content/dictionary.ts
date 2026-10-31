@@ -31,8 +31,6 @@ export interface Dictionary {
     heading: string;
     email: string;
     whatsapp: string;
-    whatsappNumber: string;
-    github: string;
     copyright: string;
   };
 }
@@ -71,8 +69,6 @@ export const dictionaries: Record<Language, Dictionary> = {
       heading: "Say Hello",
       email: "candraaliefp@gmail.com",
       whatsapp: "Chat via WhatsApp",
-      whatsappNumber: "+62 858-6614-0707",
-      github: "candraalief",
       copyright: "© LowKa Studio 2026",
     },
   },
@@ -109,8 +105,6 @@ export const dictionaries: Record<Language, Dictionary> = {
       heading: "Say Hello",
       email: "candraaliefp@gmail.com",
       whatsapp: "Chat via WhatsApp",
-      whatsappNumber: "+62 858-6614-0707",
-      github: "candraalief",
       copyright: "© LowKa Studio 2026",
     },
   },
